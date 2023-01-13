@@ -3,18 +3,23 @@
 Spyder Editor
 
 This is a temporary script file.
+
 """
 
-from utils import helper_funcs
+import test_tree as tt
 
-
-class test_cases:
+class TestSuite:
     
-    def __init__(self):
-        return "h"
+    def __init__(self, tree=tt.test):
+        self.tree = tree
+    
+        
+    def 
+     
         
     
     
     
     
-hello()
+tt.test["expect"]["to"]['equal'](10,10)
+tt.test["expect"]["to"]["be"]["closeTo"](10,45)
